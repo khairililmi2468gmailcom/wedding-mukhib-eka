@@ -27,8 +27,8 @@ const config = {
       }
     ],
     audio: {
-      src: "/audio/fulfilling-humming.mp3",
-      title: "Fulfilling Humming",
+      src: "/audio/cannon.mp3",
+      title: "Cannon Rock Romantic",
       autoplay: true,
       loop: true
     },
