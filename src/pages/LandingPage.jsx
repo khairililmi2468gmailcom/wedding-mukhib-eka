@@ -9,9 +9,9 @@ const LandingPage = ({ onOpenInvitation }) => (
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
-    className="min-h-screen relative overflow-hidden bg-cover bg-center md:bg-top lg:bg-bottom w-full"
+    className="relative overflow-hidden bg-cover bg-center md:bg-top lg:bg-bottom w-full"
     style={{
-      backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_i8-m-7X_spxsSoFQPdhud90TJxx3NL3ag&s')",
+      backgroundImage: "url('/images/foto.jpeg')",
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",

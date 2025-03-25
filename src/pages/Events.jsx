@@ -9,10 +9,17 @@ export default function Events() {
     return (
         <>
             {/* Event Section */}
-            {events.length > 0 && ( // Hanya tampilkan jika ada event
-                <section id="event" className="relative flex flex-col items-center justify-center px-4 py-16 sm:py-20 text-center overflow-hidden bg-cover bg-center"
-                style={{ backgroundImage: "url('https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?cs=srgb&dl=pexels-asadphoto-1268877.jpg&fm=jpg')", backgroundAttachment: 'fixed' }}>
-        
+            {events.length > 0 && (
+                <section
+                    id="event"
+                    className="relative flex flex-col items-center justify-center px-6 py-20 sm:py-24 text-center overflow-hidden bg-cover bg-center"
+                    style={{
+                        backgroundImage: "url('https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?cs=srgb&dl=pexels-asadphoto-1268877.jpg&fm=jpg')",
+                        backgroundAttachment: 'fixed'
+                    }}
+                >
+                    {/* Overlay Lembut */}
+
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
@@ -87,6 +94,7 @@ export default function Events() {
                     </motion.div>
                 </section>
             )}
+
         </>
     )
 }
